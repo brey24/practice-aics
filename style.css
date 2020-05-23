@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* -------HEADER------ */
+
+header{
+    background-image: url(image/aics-header.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+}
+
+.enroll-btn1{
+    position: relative;
+    
+}
+
+.enroll-btn1 h2{
+    position: absolute;
+    top: 33.5rem;
+    left: 31rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    background-color: rgba(224, 255, 255, 0.329);
+    border-radius: 0.5rem;
+   
+}
+
+.enroll-btn1 h2 a{
+   text-decoration: none;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.5rem;
+   color: black;
+   font-weight: 900;
+   
+}
+
+.enroll-btn1 h2:hover{
+    background-color: cyan;
+    transition: 0.5s;
+    transform: scale(1.2);
+ }
+
+.enroll-btn2{
+    position: relative;
+}
+
+.enroll-btn2 h2{
+    position: absolute;
+    top: 33.5rem;
+    left: 44rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    background-color: rgba(224, 255, 255, 0.329);
+    border-radius: 0.5rem;
+   
+}
+
+.enroll-btn2 h2 a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 900;
+ }
+
+ .enroll-btn2 h2:hover{
+    background-color: cyan;
+    transition: 0.5s;
+    transform: scale(1.2);
+ }
+
+/* ---------NAV--------- */
+
+.menu{
+    float: right;
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 55px;
+    display: none;
+    
+    
+}
+
+#toggle{
+    display: none;
+}
+
+
+nav{
+    height: 3rem;
+    background-color:rgba(224, 232, 255, 0.555); 
+    /* display: flex; */
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+nav h1{
+    margin-right: 4rem;
+    margin-top: 1.5rem;
+    position: absolute;
+    top: .1rem;
+    left: 5.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color:darkcyan;
+    font-size: 1rem;
+}
+
+nav img{
+    height: 4rem;
+    width: 4rem;
+    margin-left: 1rem;
+}
+
+
+
+.menu  a{
+    text-decoration: none;
+    margin: 0 30px;
+    line-height: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: darkcyan;
+    
+}
+.menu a:hover{
+    color: cyan;
+    border-bottom: 1px solid gold;
+    transition: 0.5s;
+}
+/* -----END OF NAV----- */
+
+
+/* ----SECTION-------- */
+
+
+
+section h1{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+section h2{
+    margin-top: 3rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.history-container{
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.history-container p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.history-container :nth-child(1){
+    margin-top: 1rem;
+}
+
+/* ---CARDS---- */
+
+.cards-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+
+
+.cards{
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    float: left;
+}
+
+.cards  h2{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    
+}
+
+.cards p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.card1{
+    text-align: center;
+    margin-bottom: 2rem;
+  
+}
+
+.card1 img{
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.card1 p{
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.5;
+}
+
+.card1 li{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    
+}
+
+.card2{
+    text-align: center;
+    margin-bottom: 2rem;
+   
+    
+    
+}
+
+.card2 img{
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.card2 p{
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 1.5;
+}
+
+.card2 li{
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+
+
+
+@media screen and  (max-width: 500px){
+    
+
+    .enroll-btn1{
+        position: relative;
+
+        
+    }
+
+    .enroll-btn1 h2{
+        position: absolute;
+        top: 30rem;
+        left: 3rem;
+        border: 1px solid white;
+        padding: 0.5rem;
+        background-color: rgba(224, 255, 255, 0.329);
+        border-radius: 0.5rem;
+    
+    }
+
+    .enroll-btn1 h2 a{
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        color: black;
+        font-weight: 900;
+        
+     }
+
+     .enroll-btn2{
+        position: relative;
+
+        
+    }
+
+    .enroll-btn2 h2{
+        position: absolute;
+        top: 30rem;
+        left: 13rem;
+        border: 1px solid white;
+        padding: 0.5rem;
+        background-color: rgba(224, 255, 255, 0.329);
+        border-radius: 0.5rem;
+    
+    }
+
+    .enroll-btn2 h2 a{
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        color: black;
+        font-weight: 900;
+        
+     }
+
+
+
+     label{
+         display: block;
+         float: right;
+         cursor: pointer;
+         /* margin-right: 1rem; */
+     }
+
+     .menu{
+         text-align: center;
+         width: 100%;
+         display: none;
+         background-color:rgba(224, 232, 255, 0.555); 
+         margin-left: 1rem;
+     }
+
+
+     .menu a{
+         display: block;
+         clear: right;
+         margin: 0;
+     }
+     .menu a:hover{
+         background-color: rgba(0, 139, 139, 0.507);
+         color:black;
+         transform: scale(1.1);
+         transition: 0.5s;
+         
+         
+     }
+
+     #toggle:checked + .menu {
+         display: block;
+     }
+
+
+
+     .cards-container{
+         flex-wrap: wrap;
+       
+         /* justify-content: space-around; */
+     }
+
+     .history-container{
+        text-align: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .cards-container{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        
+        /* text-align: center; */
+    }
+    
+    .cards{
+        text-align: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    .cards  h2{
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .cards p{
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    
+    .card1{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .card1 img{
+        height: 6rem;
+        width: 6rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card1 p{
+        text-align: center;
+        margin: auto;
+        line-height: 1.5;
+    }
+    
+    .card1 li{
+        text-align: left;
+        margin-left: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+    }
+    
+    .card2{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .card2 img{
+        height: 6rem;
+        width: 6rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card2 p{
+        text-align: center;
+        margin: auto;
+        line-height: 1.5;
+    }
+    
+    .card2 li{
+        text-align: left;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+    }
+    
+
+     /* .cards > div{
+
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+     } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
